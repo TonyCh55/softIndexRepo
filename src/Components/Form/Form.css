@@ -1,0 +1,55 @@
+.create_form {
+    width: 35%;
+    text-align: center;
+    padding-top: 3rem;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.create_form input {
+    width: 72%;
+    margin-bottom: 1rem;
+    min-height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    padding-left: 0.5rem;
+    font-size: 1.1rem;
+    background-color: #000044;
+    color: bisque;
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,189,1);
+-moz-box-shadow: 0px 0px 5px 3px rgba(0,0,189,1);
+box-shadow: 0px 0px 5px 3px rgba(0,0,189,1);
+}
+
+.create_form input.valid {
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0, 255, 55, 0.63);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0, 255, 55, 0.63);
+    box-shadow: 0px 0px 5px 3px rgba(0, 255, 55, 0.63);
+} 
+
+.create_form input.invalid {
+    -webkit-box-shadow: 0px 0px 5px 3px rgb(189, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 3px rgb(189, 0, 0);
+    box-shadow: 0px 0px 5px 3px rgb(189, 0, 0);
+} 
+
+.create_form input.empty_field {
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,189,1);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,189,1);
+    box-shadow: 0px 0px 5px 3px rgba(0,0,189,1);
+}
+
+
+.create_form button {
+    width: 50%;
+    border-radius: 0.6rem;
+    padding: 0.3rem;
+    color: bisque;
+    background-color: rgba(0,0,189,1);
+    cursor: pointer;
+    border: none;
+    outline: #000044;
+    font-size: 1.1em;
+    font-weight: 600;
+}

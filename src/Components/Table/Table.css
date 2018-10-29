@@ -1,0 +1,29 @@
+.user_table {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0,0,119,0.8);
+    color: bisque;
+    text-align: center;
+}
+
+.user_table td, .user_table th {
+    padding: 7px;
+    font-size: 1.1em;
+}
+
+.user_table button{
+    margin-left: 7px;
+    border-radius: 0.6rem;
+    padding: 0.3rem;
+    color: bisque;
+    background-color: rgba(0,0,189,1);
+    cursor: pointer;
+    border: none;
+    outline: #000044;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.user_table button.delete {
+    background-color: rgb(189, 0, 0); 
+}

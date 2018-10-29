@@ -1,0 +1,15 @@
+.App {
+  background-image: url('./img/8358224.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+}
+
+::-webkit-scrollbar { width: 3px; height: 3px;}
+::-webkit-scrollbar-track-piece { background-color: #020e30;}
+::-webkit-scrollbar-thumb { height: 30px; background-color: rgb(56, 3, 247); border-radius: 3px;}
