@@ -1,5 +1,5 @@
 Hello,
-befor using the app u're supposed to make `npm i` an after that  `npm start`
+before using the app u're supposed to make `npm i` an after that  `npm start`
 
 
 
